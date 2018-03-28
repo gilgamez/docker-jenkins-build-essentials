@@ -1,5 +1,7 @@
 FROM jenkins/jenkins:lts
 
+ARG user=jenkins
+
 LABEL maintainer="gilgamez@gmail.com"
 
 USER root
